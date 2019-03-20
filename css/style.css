@@ -1,4 +1,35 @@
 body {
 	box-sizing: border-box;
-	background-color: royalblue;
+	font-family: Verdana, sans-serif;
+	text-align: center;
 }
+
+img {
+	vertical-align: middle;
+}
+
+.slideshow-container {
+	max-width: 1140px;
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.numberText {
+	position: absolute;
+	top: 0;
+	padding: 8px 128px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.text {
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	padding: 8px 20%;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+}
+
